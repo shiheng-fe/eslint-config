@@ -10,8 +10,8 @@
 
 module.exports = {
   extends: [
-    "@shihengtech/eslint-config-typescript",
-    "@shihengtech/eslint-config-react"
+    "@shihengtech/eslint-config-react",
+    "@shihengtech/eslint-config-typescript"
   ],
   rules: {
     //
