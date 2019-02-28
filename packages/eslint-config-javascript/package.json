@@ -1,0 +1,10 @@
+{
+  "name": "@shihengtech/eslint-config-javascript",
+  "version": "0.0.7",
+  "main": "index.js",
+  "license": "MIT",
+  "gitHead": "620fad610d0c9937e2bacab51543cc49915ed145",
+  "publishConfig": {
+    "access": "public"
+  }
+}
