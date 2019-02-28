@@ -528,14 +528,14 @@ module.exports = {
     // @fixable 一个缩进必须用四个空格替代
     indent: [
       "error",
-      4,
+      2,
       {
         SwitchCase: 1,
         flatTernaryExpressions: true
       }
     ],
     // @fixable jsx 中的属性必须用双引号
-    "jsx-quotes": ["error", "prefer-double"],
+    "jsx-quotes": ["error", "prefer-single"],
     // @fixable 对象字面量中冒号前面禁止有空格，后面必须有空格
     "key-spacing": [
       "error",
