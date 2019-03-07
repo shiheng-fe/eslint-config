@@ -7,7 +7,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@shihengtech/eslint-config-react": "^0.0.5",
-    "@shihengtech/eslint-config-typescript": "^0.0.5"
+    "@shihengtech/eslint-config-react": "^3.0.0",
+    "@shihengtech/eslint-config-typescript": "^3.0.0"
   }
 }
