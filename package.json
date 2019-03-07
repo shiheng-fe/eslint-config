@@ -2,16 +2,21 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "node ./test/index.js",
+    "lint": "eslint --ext .js --ignore-pattern bad.* ."
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.15.1",
     "lerna": "^3.13.0"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }
