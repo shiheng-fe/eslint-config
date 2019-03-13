@@ -1,13 +1,13 @@
 {
   "name": "@shihengtech/eslint-config-react-typescript",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@shihengtech/eslint-config-react": "^3.0.0",
-    "@shihengtech/eslint-config-typescript": "^3.0.0"
+    "@shihengtech/eslint-config-react": "^4.0.0",
+    "@shihengtech/eslint-config-typescript": "^4.0.0"
   }
 }
