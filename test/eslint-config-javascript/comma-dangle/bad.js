@@ -1,5 +1,3 @@
-module.exports = 4
-
 let foo = {
     bar: 'baz',
     qux: 'quux'
