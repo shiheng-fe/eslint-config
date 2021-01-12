@@ -1,13 +1,13 @@
 {
   "name": "@shihengtech/eslint-config-react",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@shihengtech/eslint-config-javascript": "^5.0.0",
+    "@shihengtech/eslint-config-javascript": "^6.0.0",
     "eslint-plugin-react": "^7.22.0"
   }
 }
