@@ -48,18 +48,21 @@ module.exports = {
     // @off 该规则现在有 bug https://github.com/AlloyTeam/eslint-config-alloy/issues/38
     '@typescript-eslint/adjacent-overload-signatures': 'off',
     // 类和接口的命名必须遵守帕斯卡命名法，比如 PersianCat
-    '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/naming-convention': ['error', {
+      selector: 'class',
+      format: ['PascalCase'],
+    }],
     // 必须手动指定类的属性和方法的可访问性（private 或 public）
     // @off 太严格了
     '@typescript-eslint/explicit-member-accessibility': 'off',
     // 接口必须以 I 开头
     // @off 没必要限制
-    '@typescript-eslint/interface-name-prefix': 'off',
+    // '@typescript-eslint/interface-name-prefix': 'off',
     // 接口和类型字面量中每一行都必须以分号结尾
     '@typescript-eslint/member-delimiter-style': 'error',
     // 私有变量命名必须以下划线开头
     // @off 没必要限制
-    '@typescript-eslint/menber-naming': 'off',
+    // '@typescript-eslint/member-naming': 'off',
     // 属性和方法必须按照排序规则排序
     '@typescript-eslint/member-ordering': 'error',
     // 必须使用 as 进行类型断言
